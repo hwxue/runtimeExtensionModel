@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "NSObject+xhw_ExtensionModel.h"
+#import "statusItem.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+   NSString *pathfile = [[NSBundle mainBundle]pathForResource:@"status.plist" ofType:nil];
+   NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:pathfile];
+    
+   statusItem *item = [statusItem xhw_modelWithDict:dict];
+    
+    NSLog(@"%@",item.user);
+    NSLog(@"===%@",item.picArray);
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    
 }
 
 

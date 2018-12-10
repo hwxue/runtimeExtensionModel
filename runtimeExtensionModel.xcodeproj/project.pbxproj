@@ -15,6 +15,11 @@
 		3B18999221BA4661009D9EE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B18999121BA4661009D9EE7 /* main.m */; };
 		3B18999C21BA4661009D9EE7 /* runtimeExtensionModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B18999B21BA4661009D9EE7 /* runtimeExtensionModelTests.m */; };
 		3B1899A721BA4661009D9EE7 /* runtimeExtensionModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1899A621BA4661009D9EE7 /* runtimeExtensionModelUITests.m */; };
+		3B1899B621BA468E009D9EE7 /* NSObject+xhw_ExtensionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1899B521BA468E009D9EE7 /* NSObject+xhw_ExtensionModel.m */; };
+		3B1899BB21BDFF02009D9EE7 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1899BA21BDFF02009D9EE7 /* status.plist */; };
+		3B1899BE21BDFF55009D9EE7 /* statusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1899BD21BDFF55009D9EE7 /* statusItem.m */; };
+		3B1899C121BDFF5E009D9EE7 /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1899BF21BDFF5E009D9EE7 /* user.m */; };
+		3B1899C421BE0981009D9EE7 /* HWpicArrayS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1899C221BE0981009D9EE7 /* HWpicArrayS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		3B1899A221BA4661009D9EE7 /* runtimeExtensionModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeExtensionModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1899A621BA4661009D9EE7 /* runtimeExtensionModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeExtensionModelUITests.m; sourceTree = "<group>"; };
 		3B1899A821BA4661009D9EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1899B421BA468E009D9EE7 /* NSObject+xhw_ExtensionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+xhw_ExtensionModel.h"; sourceTree = "<group>"; };
+		3B1899B521BA468E009D9EE7 /* NSObject+xhw_ExtensionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+xhw_ExtensionModel.m"; sourceTree = "<group>"; };
+		3B1899BA21BDFF02009D9EE7 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		3B1899BC21BDFF55009D9EE7 /* statusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statusItem.h; sourceTree = "<group>"; };
+		3B1899BD21BDFF55009D9EE7 /* statusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statusItem.m; sourceTree = "<group>"; };
+		3B1899BF21BDFF5E009D9EE7 /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		3B1899C021BDFF5E009D9EE7 /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		3B1899C221BE0981009D9EE7 /* HWpicArrayS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWpicArrayS.m; sourceTree = "<group>"; };
+		3B1899C321BE0981009D9EE7 /* HWpicArrayS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWpicArrayS.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				3B18998321BA4653009D9EE7 /* AppDelegate.m */,
 				3B18998521BA4653009D9EE7 /* ViewController.h */,
 				3B18998621BA4653009D9EE7 /* ViewController.m */,
+				3B1899BC21BDFF55009D9EE7 /* statusItem.h */,
+				3B1899BD21BDFF55009D9EE7 /* statusItem.m */,
+				3B1899C021BDFF5E009D9EE7 /* user.h */,
+				3B1899BF21BDFF5E009D9EE7 /* user.m */,
+				3B1899C321BE0981009D9EE7 /* HWpicArrayS.h */,
+				3B1899C221BE0981009D9EE7 /* HWpicArrayS.m */,
+				3B1899BA21BDFF02009D9EE7 /* status.plist */,
+				3B1899B421BA468E009D9EE7 /* NSObject+xhw_ExtensionModel.h */,
+				3B1899B521BA468E009D9EE7 /* NSObject+xhw_ExtensionModel.m */,
 				3B18998821BA4653009D9EE7 /* Main.storyboard */,
 				3B18998B21BA4661009D9EE7 /* Assets.xcassets */,
 				3B18998D21BA4661009D9EE7 /* LaunchScreen.storyboard */,
@@ -237,6 +260,7 @@
 			files = (
 				3B18998F21BA4661009D9EE7 /* LaunchScreen.storyboard in Resources */,
 				3B18998C21BA4661009D9EE7 /* Assets.xcassets in Resources */,
+				3B1899BB21BDFF02009D9EE7 /* status.plist in Resources */,
 				3B18998A21BA4653009D9EE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +288,11 @@
 			files = (
 				3B18998721BA4653009D9EE7 /* ViewController.m in Sources */,
 				3B18999221BA4661009D9EE7 /* main.m in Sources */,
+				3B1899C421BE0981009D9EE7 /* HWpicArrayS.m in Sources */,
+				3B1899BE21BDFF55009D9EE7 /* statusItem.m in Sources */,
 				3B18998421BA4653009D9EE7 /* AppDelegate.m in Sources */,
+				3B1899C121BDFF5E009D9EE7 /* user.m in Sources */,
+				3B1899B621BA468E009D9EE7 /* NSObject+xhw_ExtensionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
